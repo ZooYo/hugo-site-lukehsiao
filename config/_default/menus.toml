@@ -4,22 +4,22 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "簡介"
+  name = "About"
   url = "#about"
   weight = 10
 
 [[main]]
-  name = "文章"
+  name = "Posts"
   url = "#posts"
   weight = 20
 
 [[main]]
-  name = "作品"
+  name = "Projects"
   url = "#projects"
   weight = 30
 
 [[main]]
-  name = "聯絡"
+  name = "Contact"
   url = "#contact"
   weight = 40
 
