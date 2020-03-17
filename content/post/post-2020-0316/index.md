@@ -1,7 +1,7 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "測試第一篇Post"
+title: "Python thread process"
 subtitle: ""
 summary: ""
 authors: []
