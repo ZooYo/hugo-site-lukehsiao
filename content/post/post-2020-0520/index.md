@@ -183,7 +183,7 @@ id|app|name|applied
 ***
 ## \-\-fake
 
-> ##### python manage.py migrate example --fake
+> ##### python manage.py migrate example \-\-fake
 > - 檔案系統:
 >    - example/migrations/\_\_init\_\_.py
 >    - example/migrations/0001\_initial.py
@@ -207,7 +207,7 @@ id|app|name|applied
 > OperationalError at /admin/example/book/ <br/>
 > no such column: example_book.price
 
-原因是，--fake會讓狀態在migrations之間移動，但不會真正的對DB做操作，也就是說當前的Database並沒有price欄位，那要如何回到原本的狀態呢？ <br/>
+原因是，\-\-fake會讓狀態在migrations之間移動，但不會真正的對DB做操作，也就是說當前的Database並沒有price欄位，那要如何回到原本的狀態呢？ <br/>
 （此時並沒有辦法migrate，因為對migrations的狀態來說，他已經在0002了，因此降至0001再重新執行migrate）
 
     python manage.py migrate example 0001
