@@ -181,7 +181,7 @@ id|app|name|applied
 嗯嗯，建新表 => 複製內容 => 丟掉舊表 => 將新表的名稱改為就表的名稱 => commit
 
 ***
-## --fake
+## \-\-fake
 
 > ##### python manage.py migrate example --fake
 > - 檔案系統:
