@@ -178,7 +178,7 @@ id|app|name|applied
     ALTER TABLE "new__example_book" RENAME TO "example_book";
     COMMIT;
 
-嗯嗯，建新表 => 複製內容 => 丟掉舊表 => 將新表的名稱改為就表的名稱 => commit
+嗯嗯，建新表 => 複製內容 => 丟掉舊表 => 將新表的名稱改為舊表的名稱 => commit
 
 ***
 ## \-\-fake
