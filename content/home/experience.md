@@ -23,11 +23,20 @@ date_format = "Jan 2006"
   company_url = "https://www.maideax.com/"
   location = "Taiwan, New Taipei"
   date_start = "2020-03-01"
-  date_end = ""
+  date_end = "2022-03-01"
   description = """
   Responsibilities include:
   
-  * currently working on third party payment related website development
+  * Third-party payment related website development
+  * Develop sandbox(mock third-party payment) for internal usage
+  * Deploy production server on EC2 using Docker
+  * Writing bash script to initialize EC2(Ubuntu) environment for Docker deployment
+  * Minimize downtime of production server while changing Docker image
+  * Fetch and parse specific content in banks SMS
+  * Automation process for bank App on phone using uiautomator2
+  * Text recognition for simple captcha using OpenCV, tesseract
+  * Improve text recognition accuracy using a pre-trained model
+  * Refator structure from DRF + jQuery to GraphQL + React
   """
 
 [[experience]]
